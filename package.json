@@ -7,7 +7,7 @@
   "contributors"   : [
                       { "name": "Kamil Mówiński" }
                      ],
-  "dependencies"   : {},
+  "dependencies"   : {"async-stacktrace": "0.0.2"},
   "devDependencies": {},
   "version"        : "1.0.0",
   "license"        : "Apache-2.0"

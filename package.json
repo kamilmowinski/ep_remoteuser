@@ -1,0 +1,14 @@
+{
+  "name"           : "ep_remoteuser",
+  "description"    : "",
+  "homepage"       : "http://wcss.pl",
+  "keywords"       : ["etherpad", "remoteuser", "author"],
+  "author"         : "WCSS",
+  "contributors"   : [
+                      { "name": "Kamil Mówiński" }
+                     ],
+  "dependencies"   : {},
+  "devDependencies": {},
+  "version"        : "1.0.0",
+  "license"        : "Apache-2.0"
+}

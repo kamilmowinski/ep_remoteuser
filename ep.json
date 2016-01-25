@@ -1,0 +1,10 @@
+{
+  "parts": [
+    {
+      "name": "ep_remoteuser",
+      "hooks": {
+        "handleMessage": "ep_remoteuser/ep_remoteuser"
+      }
+    }
+  ]
+}

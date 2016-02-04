@@ -6,7 +6,6 @@ var ERR = require('async-stacktrace');
 
 exports.handleMessage = function(hook_name, context, cb) {
     var remote_user = context.client.client.request.headers['remote-user'];
-    console.error(context.message.token, remote_user);
     authorManager.getAuthor4Token(context.message.token, function(err, author) {
         if (ERR(err)) {
             console.error(err);
